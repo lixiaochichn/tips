@@ -3,6 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     transition: .5s;
+
+    /*手机网站点击链接触发颜色块的问题解决*/
+    -webkit-tap-highlight-color: transparent;
+
+    /*滚动条*/
+    overflow: auto;
+    overflow: hidden;
+
+    /*手型*/
+    cursor: pointer;
+
+    /*蓝框*/
+    outline: none;
+
+    /*禁止选择*/
+    user-select: none;
 }
 
 /*图片居中*/
@@ -20,12 +36,8 @@ ul {
     list-style: none;
 }
 
-    overflow: auto;//滚动条
-    overflow: hidden;//滚动条
-    cursor: pointer;//手型
-    outline: none;//蓝框
-    user-select: none;//禁止选择
-    transition: .2s;//动画时间
+
+
 font-weight:normal;
 font-weight:bold;
 font-weight:900;
