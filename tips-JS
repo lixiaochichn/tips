@@ -1,0 +1,31 @@
+//cdn
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script> //CDN 提供的 jQuery
+
+//DOMContentLoaded
+document.addEventListener('DOMContentLoaded',function(){
+console.log('aaa');
+});
+
+//jQuery-ready
+$(document).ready(function(){});
+
+
+$(function(){});
+
+
+
+
+console.log(`
+      ___           ___           ___           ___     
+     /\\__\\         /\\__\\         /\\__\\         /\\  \\    
+    /:/  /        /:/  /        /::|  |        \\:\\  \\   
+   /:/__/        /:/  /        /:|:|  |         \\:\\  \\  
+  /::\\  \\ ___   /:/  /  ___   /:/|:|  |__       /::\\  \\ 
+ /:/\\:\\  /\\__\\ /:/__/  /\\__\\ /:/ |:| /\\__\\     /:/\\:\\__\\
+ \\/__\\:\\/:/  / \\:\\  \\ /:/  / \\/__|:|/:/  /    /:/  \\/__/
+      \\::/  /   \\:\\  /:/  /      |:/:/  /    /:/  /     
+      /:/  /     \\:\\/:/  /       |::/  /     \\/__/      
+     /:/  /       \\::/  /        /:/  /                 
+     \\/__/         \\/__/         \\/__/                  
+\n李晓驰(苏州)，应聘前端开发工程师 lixiaochichn@gmail.com
+`);
