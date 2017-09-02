@@ -37,9 +37,9 @@ line-height: 30px;
 
 /*过长文字省略...*/
 {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow: hidden; /*当内容溢出其块级容器时,内容会被修剪,并且其余内容不可见*/
+  text-overflow: ellipsis; /*显示一个省略号*/
+  white-space: nowrap; /*处理元素中的空白,连续的空白符会被合并。但文本内的换行无效。*/
 }
 
 justify-content: center;
