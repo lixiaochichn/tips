@@ -1,1 +1,5 @@
 browser-sync start --server --files "css/*.css"
+browser-sync start --server --files "**/*.css, **/*.html, **/*.js"
+
+node-sass --watch --recursive --output css scss
+
