@@ -65,3 +65,5 @@ calc();
 /*字体*/
 font-family: Helvetica, Tahoma, Arial, STXihei, “华文细黑”, Heiti, “黑体”, “Microsoft YaHei”, “微软雅黑”, SimSun, “宋体”, sans-serif;
 
+/*半透明渐变覆盖*/
+background: #58a linear-gradient(hsla(0,0%,100%,.5),transparent);
